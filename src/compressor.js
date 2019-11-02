@@ -58,5 +58,5 @@ async function applyCompression(path, destination) {
 }
 
 module.exports = {  
-    compress: recursiveNavigation
+    compress: navigateAndCompress
 };
